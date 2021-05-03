@@ -13,37 +13,40 @@ Para usar as funções, é necessário criar o primeiro nó:
     node_s *ex_node = NULL;
 
 ### 1. Adicionando um item
-    int push(node_s \**node, float value); --> Adiciona um item ao topo da pilha
-    Ex.: ok = push(&ex_node, 8.2); // Adiciona 8.2 ao topo da pilha 
-    
+
 + Recebe o endereço do nó e o valor a ser adicionado.
 + Retorna 1 caso memória tenha sido alocada corretamente.
 
-
+        int push(node_s \**node, float value); --> Adiciona um item ao topo da pilha
+        Ex.: ok = push(&ex_node, 8.2); // Adiciona 8.2 ao topo da pilha 
+        
 ### 2. Removendo um item
 
-    int pop(node_s \**node);** --> Retira um item do topo da pilha
-    Ex.: ok = pop(&ex_node); 
-
-+ ecebe o endereço do nó.
++ Recebe o endereço do nó.
 + Retorna 0 caso não hajam itens na pilha.
 
-### 3. Consultando o item do topo
- 
-    float top(node_s *node, int *ok);
-    Ex.: val = top(ex_node, &ok);  //ok será 0 se pilha estiver vazia
+        int pop(node_s \**node);** --> Retira um item do topo da pilha
+        Ex.: ok = pop(&ex_node); 
 
+
+### 3. Consultando o item do topo 
+ 
 + Recebe o nó e o endereço de uma variável para controle.
 + Retorna o valor no topo da pilha
+
+        float top(node_s *node, int *ok);
+        Ex.: val = top(ex_node, &ok);  //ok será 0 se pilha estiver vazia
+
 
 
 ### 4. Consultando o item de menor valor
 
-    float mini(node_s \**node, int *ok);    
-    Ex.: val = min(&ex_node, &ok);  //ok será 0 se a pilha estiver vazia
-
 + Recebe o endereço do nó e o endereço de uma variável para controle.
 + Retorna o menor valor da pilha até o momento
+
+        float mini(node_s \**node, int *ok);    
+        Ex.: val = min(&ex_node, &ok);  //ok será 0 se a pilha estiver vazia
+
 
 
 
