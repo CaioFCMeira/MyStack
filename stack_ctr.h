@@ -6,5 +6,5 @@ typedef struct node {
 
 int push(node_s **node, float value);
 int pop(node_s **node);
-float top(node_s *node, int *node_nbr);
-float mini(node_s **node, int *ok);
+float top(node_s *node, int *has_top);
+float mini(node_s **node, int *has_min);
