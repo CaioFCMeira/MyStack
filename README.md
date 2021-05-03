@@ -12,7 +12,7 @@ Para usar as funções, é necessário criar o primeiro nó:
 
 node_s *ex_node = NULL;
 
-**int push(node_s \**node, float value);** --> Adiciona um item ao topo da pilha
+*int push(node_s \**node, float value); --> Adiciona um item ao topo da pilha
 
 Recebe o endereço do nó e o valor a ser adicionado.
 
