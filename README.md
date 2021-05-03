@@ -23,7 +23,6 @@ Para usar as funções, é necessário criar o primeiro nó:
 ### 2. Removendo um item
 
     int pop(node_s \**node);** --> Retira um item do topo da pilha
-
     Ex.: ok = pop(&ex_node); 
 
 + ecebe o endereço do nó.
@@ -40,8 +39,7 @@ Para usar as funções, é necessário criar o primeiro nó:
 
 ### 4. Consultando o item de menor valor
 
-    float mini(node_s \**node, int *ok);
-    
+    float mini(node_s \**node, int *ok);    
     Ex.: val = min(&ex_node, &ok);  //ok será 0 se a pilha estiver vazia
 
 + Recebe o endereço do nó e o endereço de uma variável para controle.
