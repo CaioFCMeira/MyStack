@@ -1,0 +1,100 @@
+=====Testing functions with one stack (node_one)=====
+Filling stack one:
+      1.000000
+      2.000000
+      -2.000000
+      6.000000
+top > 5.000000
+
+Check smallest Value:
+      -2.000000
+
+Pop three items:
+      New Top: 6.000000
+      New Top: -2.000000
+      New Top: 2.000000
+
+Get smallest Value:
+      1.000000
+
+Empty the stack:
+      ... The stack is empty
+
+Try to get top value:
+      No top value, the stack is empty
+
+Try to pop an empty stack:
+      No node, the stack is empty
+
+Try to check minimum value:
+      No minimum value, the stack is empty
+
+Repopulate Stack One:
+      -5.100000
+      1.000000
+      -1.000000
+      0.000000
+top   12.000000
+
+Check smallest Value:
+      -5.100000
+
+Get top value:
+      12.000000
+
+=====Testing functions with two stack (node_two)=====
+               No memory conflict
+
+Filling stack two:
+      -5.100000
+      1.000000
+      -1.000000
+      0.000000
+top   12.000000
+
+Check smallest Value:
+      -5.100000
+
+Pop three items:
+      New Top: 0.000000
+      New Top: -1.000000
+      New Top: 1.000000
+
+Get smallest Value:
+      -5.100000
+
+Empty the stack:
+      ... The stack is empty
+
+Try to get top value:
+      No top value, the stack is empty
+
+Try to pop an empty stack:
+      No node, the stack is empty
+
+Try to check minimum value:
+      No minimum value, the stack is empty
+
+Repopulate Stack Two:
+      -0.500000
+      -9.300000
+      -1.000000
+      1.000000
+top   5.900000
+
+Check smallest Value:
+      -9.300000
+
+Get top value:
+      5.900000
+
+Check stack one:
+top   12.000000
+      0.000000
+      -1.000000
+      1.000000
+      -5.100000
+
+=====End routine=====
+Release memories
+      ... Memories are free
