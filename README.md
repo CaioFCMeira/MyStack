@@ -6,6 +6,8 @@ Desafio de Engenharia
 Os arquivos stack_ctr.c e stack_ctr.h implementam listas linkadas, alocando memória dinamicamente. Cada nó contém um ponteiro para o seu sucessor imediato na pilha. A pilha não contém limite de tamanho e ira dar overflow se não houver mais espaço no heap para criação de novos nós. 
 Para consultar o menor item da pilha em O(1), o nó sempre armazena o endereço do menor item até o momento.
 
+O arquivo main.c apenas utiliza as funções criando e manipulando duas pilhas. A saída do programa está no arquivo teste.txt.
+
 ## Funções 
 
 Para usar as funções, é necessário criar o primeiro nó:
